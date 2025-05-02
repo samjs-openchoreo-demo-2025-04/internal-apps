@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: internal-apps
+  description: Internal Apps
+  annotations:
+    github.com/project-slug: samjs-openchoreo-demo-2025-04/internal-apps
+    # backstage.io/kubernetes-label-selector: 'core.choreo.dev/organization=default-org,core.choreo.dev/name=internal-apps'
+    backstage.io/kubernetes-id: internal-apps
+  tags:
+    - openchoreo
+    - project
+  links:
+    - url: https://github.com/samjs-openchoreo-demo-2025-04/internal-apps
+      title: GitHub Repo
+      icon: github
+    - url: https://github.com/openchoreo/openchoreo
+      title: OpenChoreo
+      icon: web
+spec:
+  owner: guests
